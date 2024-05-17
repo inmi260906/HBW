@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+}
+#picEmployee1{
+	border-radius: 200px;
+}
+#picEmployee1{
+	transition: transform 0.3s ease;
+}
+#picEmployee1:hover{
+	transform: scale(1.1);
+}
+#picEmployee2{
+	border-radius: 200px;
+}
+#picEmployee2{
+	transition: transform 0.3s ease;
+}
+#picEmployee2:hover{
+	transform: scale(1.1);
+}
+#picEmployee3{
+	border-radius: 200px;
+}
+#picEmployee3{
+	transition: transform 0.3s ease;
+}
+#picEmployee3:hover{
+	transform: scale(1.1);
+}
+#picEmployee7{
+	border-radius: 200px;
+}
+#picEmployee7{
+	transition: transform 0.3s ease;
+}
+#picEmployee7:hover{
+	transform: scale(1.1);
+}
+#picEmployee4{
+	border-radius: 200px;
+}
+#picEmployee4{
+	transition: transform 0.3s ease;
+}
+#picEmployee4:hover{
+	transform: scale(1.1);
+}
+#picEmployee5{
+	border-radius: 200px;
+}
+#picEmployee5{
+	transition: transform 0.3s ease;
+}
+#picEmployee5:hover{
+	transform: scale(1.1);
+}
+#picEmployee6{
+	border-radius: 200px;
+}
+#picEmployee6{
+	transition: transform 0.3s ease;
+}
+#picEmployee6:hover{
+	transform: scale(1.1);
+}
+#picEmployee8{
+	border-radius: 200px;
+}
+#picEmployee8{
+	transition: transform 0.3s ease;
+}
+#picEmployee8:hover{
+	transform: scale(1.1);
+}
+@keyframes slow-rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.slow-rotate {
+    animation: slow-rotation 80s infinite linear;
+    /* Adjust the duration (200s) as desired */
+}
+#insta{
+	transition: transform 0.3s ease;
+}
+#insta:hover{
+	transform: scale(1.1);
+}
+#fb{
+	transition: transform 0.3s ease;
+}
+#fb:hover{
+	transform: scale(1.1);
+}
+#tweet{
+	transition: transform 0.3s ease;
+}
+#tweet:hover{
+	transform: scale(1.1);
+}
+

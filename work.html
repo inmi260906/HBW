@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="icon" href="favicon_package/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employees</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="padding-top: 70px">
+  <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="images/hot-beans-web-favicon-black.png" alt="" width="70" height="70" class="img-fluid"/>&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"> <a class="nav-link" href="employee.html">Employees</a></li>
+            <li class="nav-item"> <a class="nav-link" href="work.html">Work With Us</a></li>
+            <li class="nav-item"> <a class="nav-link" href="careers.html">Careers</a></li>
+            <li class="nav-item"> <a class="nav-link" href="links.html">Useful Links</a></li>
+          </ul>
+        </div>
+      </nav>
+		<br><br>
+  <div class="container-fluid">
+    <form id="myForm" name="form1" method="post">
+     
+      <h2 class="text-center"> Personal Information</h2>
+      <label for="textfield">Full Name:</label>
+      <input type="text" name="textfield" id="name">
+<br>
+      <label for="textfield3">Email Address:</label>
+      <input type="text" name="textfield2" id="email">
+<br>
+		<label for="tel">Phone Number:</label>
+      <input type="tel" name="tel" id="tel">
+<br>
+		<label for="date">Date of Birth:</label>
+      <input type="date" name="date" id="date">
+<br><br>
+	<h2 class="text-center"> Professional Information</h2>
+	<br>
+			  <label for="textfield2">Current Job Title (If Applicable ):</label>
+      <input type="text" name="textfield2" id="job">
+<br>
+	  <label for="slider">Years Of Experience:</label>
+      <input type="range" name="slider" id="slider" min="0" max="100">
+	<span id="sliderValue">50</span>
+<br>
+		<label for="textfield4">Relevant Certifications or Degrees:</label>
+        <input type="text" name="textfield4" id="textfield4">
+<br>
+		 <label for="fileField">Upload CV:</label>
+      <input type="file" name="fileField" id="fileField">
+<br><br>
+      <h2 class="text-center">Skills and Expertise</h2>
+<br>
+      <h6>Please State your Level of proficiency in the following</h6>
+<p><strong>HTML/CSS</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+<p><strong>JavaScript&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+<p><strong>Frontend Frameworks (e.g., React, Angular, Vue)&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+<p><strong>Backend Technologies (e.g., Node.js, Django, Flask)&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+<p><strong>Database Management (e.g., SQL, NoSQL)&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+		<p><strong>Version Control (e.g., Git, SVN)&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+
+		<p><strong>Responsive Design&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+		<p><strong>Testing and Debugging&nbsp;</strong></p>
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Beginner</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Intermediate</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Advanced</label>
+  <br>
+</p>
+<br><br>
+      <h2 class="text-center">Previous Projects</h2>
+<br>
+	  <h6>Briefly describe one or two projects you've worked on that you're particularly proud of. Include your role and contributions.</h6>
+		<textarea cols="40" rows="5"></textarea>
+<br><br>
+      <h2 class="text-center">Additional Information</h2>
+<br>
+	  <label>Why are you interested in Joining our team?</label>
+		<input type="text" size="30"><br>
+		<label>What sets you apart from other applicants?</label>
+		<input type="text" size="30"><br>
+		<label>Do you have any scheduling restrictions or preferences for interviews?
+		</label>
+		<input type="text" size="30">
+<br><br>
+		
+		<h2 class="text-center">References</h2>
+      <label for="textfield">Full Name:</label>
+      <input type="text" name="textfield" id="ref">
+<br>
+      <label for="textfield3">Email Address:</label>
+      <input type="text" name="textfield2" id="textfield3">
+<br>
+		<label for="tel">Phone Number:</label>
+      <input type="tel" name="tel" id="tel">
+<br><br>
+		<input name="submit" type="submit" id="submit" formaction="submit.html" value="Submit">
+</form>
+        
+  </div>
+    </div>
+</div>
+<script>
+        window.onload = function() {
+            document.getElementById('myForm').addEventListener('submit', function(event) {
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+				var tel = document.getElementById('tel').value;
+				var date = document.getElementById('date').value;
+				var job = document.getElementById('job').value;
+
+                if (name === '' || email === '' || tel === '' || date === '' || job === '') {
+                    alert('Please fill out the required fields.');
+                    event.preventDefault();
+                }
+            });
+        }
+    </script>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> <script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const slider = document.getElementById('slider');
+    const sliderValue = document.getElementById('sliderValue');
+
+    slider.addEventListener('input', () => {
+      sliderValue.textContent = slider.value;
+    });
+  });
+</script>
+  </body>
+</html>
